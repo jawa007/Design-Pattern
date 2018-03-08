@@ -1,0 +1,12 @@
+Flyweight pattern is used when there is a need to create large number of object of almost similar in nature.
+The large number of object consume a large amount of memory and the flyweight design pattern provides a solution for reducing the load on memory by sharing objects.
+
+
+Flyweight pattern is primarily used to reduce the number of object created,to decrease memory footprint and increase performance.
+Flyweight pattern try to reuse already existing similar similar kind of objects by storing them and creates new object when no matching object is found.
+
+
+1-Intrinsic [Intrinsic state are things that are constant and stored in the memory]
+2-Extrinsic [Extrinsic state are things that are not constant and needs to be calculated on the fly,and are therefore not stored in the memory]
+
+e.g===>Circle are instrinc but multiple color is extrinsic
